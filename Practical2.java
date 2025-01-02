@@ -21,8 +21,8 @@ class Product
     }
     void displayProductInfo()
     {
-        System.out.println("ProducrId: "+productId);
-        System.out.println("ProductName : "+productName);
+        System.out.println("Product Id : "+productId);
+        System.out.println("Product Name : "+productName);
         System.out.println("Product Price : "+price);
     }
 }
@@ -40,7 +40,7 @@ public class Practical2
         product3.displayProductInfo();
 
         double DiscountedPrice=calcDiscount.discount(product1.price,10);
-        System.out.println("Discounted Price :"+DiscountedPrice);
+        System.out.println("Discounted Price : "+DiscountedPrice);
         System.out.println(Product.count);
     }
 }
